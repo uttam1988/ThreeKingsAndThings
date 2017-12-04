@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'AlternateGothic';
+    src: url('fonts/Alternate-gothic-no2-d.ttf');
+}
+
+@font-face {
+    font-family: 'gil';
+    src: url('fonts/GIL.TTF');
+}
+
+.AlternateGothic {
+  font-family: AlternateGothic;
+}
+
+.gil {
+  font-family: gil;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font22 {
+  font-size: 22px;
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+.font26 {
+  font-size: 26px;
+}
+
+.font28 {
+  font-size: 28px;
+}
+
+.font30 {
+  font-size: 30px;
+}
+
+.font120 {
+  font-size: 120px;
+}
+
+body {
+    font-family: 'AlternateGothic';
+    color: #FF815C;
+}
+
+.btn-primary {
+  background-color: #e37760;
+  border: transparent;
+}
+
+.btn-circle {
+  border-radius: 50%;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.pentone-orange {
+  color: #e37760;
+}
+
+.pentone-grey {
+  color: rgb(99,100,102);
+}
+
+.pentone-grey-dark {
+    color: #333333;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.black {
+    color: #000000;
+}
+
+p {
+  color: #505358;
+  font-family: gil;
+}
+
+.btn-transparent {
+  background: transparent;
+  border: 1px solid #ccc;
+}
+
+.loader-block {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: #101010;
+}
+
+.loader {
+  position: absolute;
+  opacity: 0.5;
+  background-color: rgba(248,248,248,0.6);
+}
+
+.loader-img {
+  background-image: url("images/Final_loading_animation.gif");
+  background-position: center center;
+  width: 283px;
+  height: 253px;
+  background-repeat: no-repeat;
+  z-index: 9000;
+  background-size: 50% auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -141px;
+  top: 40%;
+  margin-top: -50px;
+}
+
+label {
+  font-weight: 200;
+}
