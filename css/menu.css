@@ -1,0 +1,101 @@
+
+#menu-panel {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e37760;
+    padding: 30px 60px;
+    overflow: auto;
+}
+
+#menu-panel .navbar-toggle {
+    font-size: 40px;
+}
+
+#menu-panel ul {
+    margin-top: 100px;
+    text-align: center;
+    list-style: none;
+    font-size: 26px;
+    text-transform: none;
+    padding: 0;
+}
+
+#menu-panel ul li {
+    line-height: 4em;
+    border-bottom: 1px dotted #fff;
+    padding: 30px 0;
+}
+
+#menu-panel ul li a {
+    color: #FFFFFF;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#menu-panel ul li a:hover {
+    text-decoration: none;
+}
+
+#menu-panel ul li:last-child {
+    border-bottom: none;
+}
+
+#menu-panel ul#sub-menu-panel {
+    margin-top: 1px;
+}
+
+#menu-panel ul#sub-menu-panel li {
+    line-height: 2em;
+    padding: 20px 0;
+    border-bottom: none;
+}
+
+#menu-panel ul#sub-menu-panel li a {
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    display: block;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    word-spacing: normal;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.navbar-brand img {
+    width: 25px;
+    float: left;
+    margin: -2px 8px 0 8px;
+}
+
+.navbar-brand span {
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.navbar-dark {
+    background-color: rgba(99, 100, 102, 0.5);
+    border-color: transparent;
+}
