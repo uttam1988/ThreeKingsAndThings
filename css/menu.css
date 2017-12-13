@@ -9,6 +9,7 @@
     background-color: #e37760;
     padding: 30px 60px;
     overflow: auto;
+    z-index: 9;
 }
 
 #menu-panel .navbar-toggle {
@@ -57,6 +58,14 @@
 
 #menu-panel ul#sub-menu-panel li a {
     font-size: 30px;
+}
+
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-grow: 1;
+    color: #111;
 }
 
 .navbar-toggler {

@@ -1,11 +1,76 @@
 .down-arrow {
-    position: absolute;
-    text-align: center;
-    font-size: 2.3em;
     color: #E37761;
-    z-index: 9;
-    left: 50%;
-    bottom: .5em;
+    position: absolute;
+    bottom: 1em;
+    flex-flow: column;
+    align-items: center;
+}
+
+.down-arrow h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.down-arrow .fa {
+    font-size: 1rem;
+}
+
+.middle-text h1 {
+    font-size: 1.5rem;
+}
+
+.floating-button {
+    font-size: 1.2rem;
+}
+
+.floating-button span {
+    margin-right: .5rem;
+}
+
+.floating-button .fa {
+    background-color: #e37760;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+.bottom-text-block {
+    position: absolute;
+    bottom: 2rem;
+}
+
+.center-text-block {
+    position: absolute;
+    top: 30%;
+}
+
+.content-with-banner {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+}
+
+.pink-layer {
+    background-color: #E37761;
+    opacity: .5;
+    height: 100%;
+    width: 20rem;
+}
+
+.floatting-text {
+    top: 30%;
+    position: absolute;
+    left: 10rem;
+    flex-flow: column;
+}
+
+.floatting-text .floating-button {
+    font-size: 1.2rem;
+    margin-left: 12rem;
+    color: #111;
 }
 
 footer {
@@ -47,4 +112,18 @@ footer ul.social-icons > li {
 
 footer img.footer-logo {
     width: 150px;
+}
+
+@media (min-width: 992px) {
+    .middle-text h1 {
+        font-size: 4rem;
+    }
+
+    .down-arrow {
+        bottom: 5em;
+    }
+
+    .down-arrow .fa {
+        font-size: 4rem;
+    }
 }
